@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include playschool_management *.css
+recursive-include playschool_management *.csv
+recursive-include playschool_management *.html
+recursive-include playschool_management *.ico
+recursive-include playschool_management *.js
+recursive-include playschool_management *.json
+recursive-include playschool_management *.md
+recursive-include playschool_management *.png
+recursive-include playschool_management *.py
+recursive-include playschool_management *.svg
+recursive-include playschool_management *.txt
+recursive-exclude playschool_management *.pyc
